@@ -1,0 +1,218 @@
+.header-styles{
+    @extend %container-fluid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: #F6F8F9;
+    margin-bottom: 50px;
+    .logo{
+       color: #FA6980;
+       font-family: 'Helvetica-Bold';
+       font-size: 13px;
+       margin-left: 20px;
+    
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        .nav-ul{
+            display: flex;
+           .nav-li{
+                font-family: 'HelveticaRounded-Bold';
+                font-size: 11px;
+                margin-right: 30px;
+                color: #707070;
+                text-transform: uppercase;
+                &:first-child{
+                    color: #343638;
+                }
+           }
+           
+        }
+    }
+    .nav-img{
+        max-width: 30px;
+        width: 100%;
+        margin-left: 20px;
+        .nav-img-01{
+            width: 100%;
+        }
+    }
+}
+.banner-content{
+    @extend %container-fluid;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    .lef-block{
+        width: 50%;
+        background-image: url('../img/Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .bg-title{
+            max-width: 600px;
+            width: 100%;
+            .bg-h3{
+                font-family: 'Helvetica';
+                font-weight: bold;
+                color: #fff;
+                font-size: 24px;
+                border-bottom: 1px solid #fff;
+                padding-bottom: 40px;
+            }
+            .text-block{
+                width: 100%;
+                margin-top: 40px;
+                .h4-titile{
+                    font-family: 'Helvetica-Bold';
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                }
+                .text-p{
+                    max-width: 560px;
+                    width: 100%;
+                    font-family: 'Helvetica';
+                    font-size: 16px;
+                    color: #fff;
+                    line-height: 20px;
+                    margin-top: 20px;
+                }
+                .first-btn{
+                    max-width: 134px;
+                    width: 100%;
+                    height: 40px;
+                    background: #FA6980;
+                    color: #FFFFFF;
+                    font-family: 'Helvetica-Bold';
+                    font-size: 11px;
+                    margin-top: 30px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                }
+            }
+        }
+       
+    }
+    .right-block{
+        width: 50%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .right-title{
+            max-width: 600px;
+            width: 100%;
+            .content-titile{
+                display: flex;
+                justify-content: space-between;
+                max-width: 380px;
+                width: 100%;
+                padding-bottom: 40px;
+                border-bottom: 1px solid #EBEDED;
+                .content-h3{
+                    font-family: 'Helvetica-Bold';
+                    font-size: 24px;
+                }
+                .slider{
+                    max-width: 50px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .fa-chevron-left{
+                        font-size: 10px;
+                        color: #707070;
+                        cursor: pointer;
+                    }
+                    .fa-chevron-right{
+                        font-size: 10px;
+                        color: #202124;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .second-content{
+            max-width: 380px;
+            width: 100%;
+            margin-top: 41px;
+            .second-h3{
+                font-family: 'Helvetica';
+                font-weight: bold;
+                font-size: 16px;
+                color: #FA6980;
+            }
+            .therd-h3{
+                font-family: 'Helvetica';
+                font-weight: bold;
+                font-size: 16px;
+                color: #202124;
+                margin-top: 20px;
+            }
+            .content-p{
+                font-family: 'AcuminPro-Regular';
+                font-size: 16px;
+                color: #A6ADB4;
+                margin-top: 10px;
+                line-height: 20px;
+            }
+            .second-p{
+                font-family: 'Helvetica-Oblique';
+                font-size: 13px;
+                color: #A6ADB4;
+                margin-top: 12px;
+                .fa-clock{
+                    font-size: 16px;
+                    color: #CBD0D3;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .therd-content{
+            max-width: 380px;
+            width: 100%;
+            margin-top: 41px;
+            .second-h3{
+                font-family: 'Helvetica';
+                font-weight: bold;
+                font-size: 16px;
+                color: #FA6980;
+            }
+            .therd-h3{
+                font-family: 'Helvetica';
+                font-weight: bold;
+                font-size: 16px;
+                color: #202124;
+                margin-top: 20px;
+            }
+            .content-p{
+                font-family: 'AcuminPro-Regular';
+                font-size: 16px;
+                color: #A6ADB4;
+                margin-top: 10px;
+                line-height: 20px;
+            }
+            .second-p{
+                font-family: 'Helvetica-Oblique';
+                font-size: 13px;
+                color: #A6ADB4;
+                margin-top: 12px;
+                .fa-clock{
+                    font-size: 16px;
+                    color: #CBD0D3;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

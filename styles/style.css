@@ -44,3 +44,297 @@ a {
 
 * {
   box-sizing: border-box; }
+
+body {
+  background-color: #F6F8F9; }
+
+button {
+  outline: none;
+  border: 0; }
+
+@font-face {
+  font-family: 'AcuminPro-BoldItalic';
+  src: url("../fonts/AcuminPro-BoldItalic.eot");
+  src: url("../fonts/AcuminPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AcuminPro-BoldItalic.woff2") format("woff2"), url("../fonts/AcuminPro-BoldItalic.woff") format("woff"), url("../fonts/AcuminPro-BoldItalic.ttf") format("truetype"), url("../fonts/AcuminPro-BoldItalic.svg#AcuminPro-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'AcuminPro-Bold';
+  src: url("../fonts/AcuminPro-Bold.eot");
+  src: url("../fonts/AcuminPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AcuminPro-Bold.woff2") format("woff2"), url("../fonts/AcuminPro-Bold.woff") format("woff"), url("../fonts/AcuminPro-Bold.ttf") format("truetype"), url("../fonts/AcuminPro-Bold.svg#AcuminPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'AcuminPro-Italic';
+  src: url("../fonts/AcuminPro-Italic.eot");
+  src: url("../fonts/AcuminPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/AcuminPro-Italic.woff2") format("woff2"), url("../fonts/AcuminPro-Italic.woff") format("woff"), url("../fonts/AcuminPro-Italic.ttf") format("truetype"), url("../fonts/AcuminPro-Italic.svg#AcuminPro-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'AcuminPro-Regular';
+  src: url("../fonts/AcuminPro-Regular.eot");
+  src: url("../fonts/AcuminPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AcuminPro-Regular.woff2") format("woff2"), url("../fonts/AcuminPro-Regular.woff") format("woff"), url("../fonts/AcuminPro-Regular.ttf") format("truetype"), url("../fonts/AcuminPro-Regular.svg#AcuminPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'AcuminPro-Regular_1';
+  src: url("../fonts/AcuminPro-Regular_1.eot");
+  src: url("../fonts/AcuminPro-Regular_1.eot?#iefix") format("embedded-opentype"), url("../fonts/AcuminPro-Regular_1.woff2") format("woff2"), url("../fonts/AcuminPro-Regular_1.woff") format("woff"), url("../fonts/AcuminPro-Regular_1.ttf") format("truetype"), url("../fonts/AcuminPro-Regular_1.svg#AcuminPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url("../font/Helvetica-Bold.eot");
+  src: url("../font/Helvetica-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica-Bold.woff2") format("woff2"), url("../font/Helvetica-Bold.woff") format("woff"), url("../font/Helvetica-Bold.ttf") format("truetype"), url("../font/Helvetica-Bold.svg#Helvetica-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Helvetica-Bold_1';
+  src: url("../font/Helvetica-Bold_1.eot");
+  src: url("../font/Helvetica-Bold_1.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica-Bold_1.woff2") format("woff2"), url("../font/Helvetica-Bold_1.woff") format("woff"), url("../font/Helvetica-Bold_1.ttf") format("truetype"), url("../font/Helvetica-Bold_1.svg#Helvetica-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url("../font/Helvetica.eot");
+  src: url("../font/Helvetica.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica.woff2") format("woff2"), url("../font/Helvetica.woff") format("woff"), url("../font/Helvetica.ttf") format("truetype"), url("../font/Helvetica.svg#Helvetica") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url("../font/Helvetica-Light.eot");
+  src: url("../font/Helvetica-Light.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica-Light.woff2") format("woff2"), url("../font/Helvetica-Light.woff") format("woff"), url("../font/Helvetica-Light.ttf") format("truetype"), url("../font/Helvetica-Light.svg#Helvetica-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Helvetica-BoldOblique';
+  src: url("../font/Helvetica-BoldOblique.eot");
+  src: url("../font/Helvetica-BoldOblique.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica-BoldOblique.woff2") format("woff2"), url("../font/Helvetica-BoldOblique.woff") format("woff"), url("../font/Helvetica-BoldOblique.ttf") format("truetype"), url("../font/Helvetica-BoldOblique.svg#Helvetica-BoldOblique") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaRounded-Bold';
+  src: url("../font/HelveticaRounded-Bold.eot");
+  src: url("../font/HelveticaRounded-Bold.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaRounded-Bold.woff2") format("woff2"), url("../font/HelveticaRounded-Bold.woff") format("woff"), url("../font/HelveticaRounded-Bold.ttf") format("truetype"), url("../font/HelveticaRounded-Bold.svg#HelveticaRounded-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Helvetica-Compressed';
+  src: url("../font/Helvetica-Compressed.eot");
+  src: url("../font/Helvetica-Compressed.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica-Compressed.woff2") format("woff2"), url("../font/Helvetica-Compressed.woff") format("woff"), url("../font/Helvetica-Compressed.ttf") format("truetype"), url("../font/Helvetica-Compressed.svg#Helvetica-Compressed") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Helvetica-Oblique';
+  src: url("../font/Helvetica-Oblique.eot");
+  src: url("../font/Helvetica-Oblique.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica-Oblique.woff2") format("woff2"), url("../font/Helvetica-Oblique.woff") format("woff"), url("../font/Helvetica-Oblique.ttf") format("truetype"), url("../font/Helvetica-Oblique.svg#Helvetica-Oblique") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+.header-styles, .banner-content {
+  width: 100%; }
+
+.header-styles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background-color: #F6F8F9;
+  margin-bottom: 50px; }
+  .header-styles .logo {
+    color: #FA6980;
+    font-family: 'Helvetica-Bold';
+    font-size: 13px;
+    margin-left: 20px; }
+  .header-styles .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; }
+    .header-styles .navbar .nav-ul {
+      display: flex; }
+      .header-styles .navbar .nav-ul .nav-li {
+        font-family: 'HelveticaRounded-Bold';
+        font-size: 11px;
+        margin-right: 30px;
+        color: #707070;
+        text-transform: uppercase; }
+        .header-styles .navbar .nav-ul .nav-li:first-child {
+          color: #343638; }
+  .header-styles .nav-img {
+    max-width: 30px;
+    width: 100%;
+    margin-left: 20px; }
+    .header-styles .nav-img .nav-img-01 {
+      width: 100%; }
+
+.banner-content {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between; }
+  .banner-content .lef-block {
+    width: 50%;
+    background-image: url("../img/Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .banner-content .lef-block .bg-title {
+      max-width: 600px;
+      width: 100%; }
+      .banner-content .lef-block .bg-title .bg-h3 {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        color: #fff;
+        font-size: 24px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 40px; }
+      .banner-content .lef-block .bg-title .text-block {
+        width: 100%;
+        margin-top: 40px; }
+        .banner-content .lef-block .bg-title .text-block .h4-titile {
+          font-family: 'Helvetica-Bold';
+          font-size: 24px;
+          font-weight: bold;
+          color: #FFFFFF; }
+        .banner-content .lef-block .bg-title .text-block .text-p {
+          max-width: 560px;
+          width: 100%;
+          font-family: 'Helvetica';
+          font-size: 16px;
+          color: #fff;
+          line-height: 20px;
+          margin-top: 20px; }
+        .banner-content .lef-block .bg-title .text-block .first-btn {
+          max-width: 134px;
+          width: 100%;
+          height: 40px;
+          background: #FA6980;
+          color: #FFFFFF;
+          font-family: 'Helvetica-Bold';
+          font-size: 11px;
+          margin-top: 30px;
+          border-radius: 6px;
+          cursor: pointer; }
+  .banner-content .right-block {
+    width: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .banner-content .right-block .right-title {
+      max-width: 600px;
+      width: 100%; }
+      .banner-content .right-block .right-title .content-titile {
+        display: flex;
+        justify-content: space-between;
+        max-width: 380px;
+        width: 100%;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #EBEDED; }
+        .banner-content .right-block .right-title .content-titile .content-h3 {
+          font-family: 'Helvetica-Bold';
+          font-size: 24px; }
+        .banner-content .right-block .right-title .content-titile .slider {
+          max-width: 50px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between; }
+          .banner-content .right-block .right-title .content-titile .slider .fa-chevron-left {
+            font-size: 10px;
+            color: #707070;
+            cursor: pointer; }
+          .banner-content .right-block .right-title .content-titile .slider .fa-chevron-right {
+            font-size: 10px;
+            color: #202124;
+            cursor: pointer; }
+    .banner-content .right-block .second-content {
+      max-width: 380px;
+      width: 100%;
+      margin-top: 41px; }
+      .banner-content .right-block .second-content .second-h3 {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 16px;
+        color: #FA6980; }
+      .banner-content .right-block .second-content .therd-h3 {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 16px;
+        color: #202124;
+        margin-top: 20px; }
+      .banner-content .right-block .second-content .content-p {
+        font-family: 'AcuminPro-Regular';
+        font-size: 16px;
+        color: #A6ADB4;
+        margin-top: 10px;
+        line-height: 20px; }
+      .banner-content .right-block .second-content .second-p {
+        font-family: 'Helvetica-Oblique';
+        font-size: 13px;
+        color: #A6ADB4;
+        margin-top: 12px; }
+        .banner-content .right-block .second-content .second-p .fa-clock {
+          font-size: 16px;
+          color: #CBD0D3;
+          margin-right: 10px; }
+    .banner-content .right-block .therd-content {
+      max-width: 380px;
+      width: 100%;
+      margin-top: 41px; }
+      .banner-content .right-block .therd-content .second-h3 {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 16px;
+        color: #FA6980; }
+      .banner-content .right-block .therd-content .therd-h3 {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 16px;
+        color: #202124;
+        margin-top: 20px; }
+      .banner-content .right-block .therd-content .content-p {
+        font-family: 'AcuminPro-Regular';
+        font-size: 16px;
+        color: #A6ADB4;
+        margin-top: 10px;
+        line-height: 20px; }
+      .banner-content .right-block .therd-content .second-p {
+        font-family: 'Helvetica-Oblique';
+        font-size: 13px;
+        color: #A6ADB4;
+        margin-top: 12px; }
+        .banner-content .right-block .therd-content .second-p .fa-clock {
+          font-size: 16px;
+          color: #CBD0D3;
+          margin-right: 10px; }
