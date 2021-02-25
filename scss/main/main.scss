@@ -44,13 +44,15 @@
         }
     }
 }
+// end of header section
 .banner-content{
-    @extend %container-fluid;
+    @extend %container-fluid;   
     padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+
     .lef-block{
-        width: 50%;
+        // max-width: 840px;
+        width: 63%;
         background-image: url('../img/Image.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -59,6 +61,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 140px;
         .bg-title{
             max-width: 600px;
             width: 100%;
@@ -105,7 +108,8 @@
        
     }
     .right-block{
-        width: 50%;
+        // max-width: 600px;
+        width: 45%;
         background-color: #FFFFFF;
         display: flex;
         justify-content: center;
@@ -213,6 +217,185 @@
                     margin-right: 10px;
                 }
             }
+        }
+    }
+}
+// end of banner-section
+.section-01{
+    @extend %container;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .section-title{
+        display: flex;
+        justify-content: space-between;
+        .titile-h3{
+            font-family: 'Helvetica';
+            font-weight: bold;
+            color: #202124;
+        }
+        .slider{
+            max-width: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .fa-chevron-left{
+                font-size: 15px;
+                color: #707070;
+                cursor: pointer;
+            }
+            .fa-chevron-right{
+                font-size: 15px;
+                color: #202124;
+                cursor: pointer;
+            }
+        }
+    }
+    .content-wrapper{
+        @extend %container;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        .first-box{
+            max-width: 360px;
+            width: 100%;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            .first-img{
+                width: 100%;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+            }
+            .first-title{
+                margin-top: 40px;
+                margin-left: 40px;
+                padding-bottom: 40px;
+                .firs-p{
+                    font-family: 'Helvetica';
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .second-p{
+                    font-family: 'AcuminPro-Regular';
+                    font-size: 13px;
+                    max-width: 280px;
+                    width: 100%;
+                    line-height: 20px;
+                    color: #A6ADB4;
+                }
+                .second-p{
+                    font-family: 'AcuminPro-Regular_1';
+                    font-size: 13px;
+                    color: #A6ADB4;
+                    margin-top: 12px;
+                    .fa-clock{
+                        font-size: 16px;
+                        color: #CBD0D3;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+        }
+        .second-box{
+            max-width: 360px;
+            width: 100%;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            .second-img{
+                width: 100%;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+            }
+            .second-title{
+                margin-top: 40px;
+                margin-left: 40px;
+                padding-bottom: 40px;
+                .firs-p{
+                    font-family: 'Helvetica';
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .second-p{
+                    font-family: 'AcuminPro-Regular';
+                    font-size: 13px;
+                    max-width: 280px;
+                    width: 100%;
+                    line-height: 20px;
+                    color: #A6ADB4;
+                }
+                .second-p{
+                    font-family: 'AcuminPro-Regular_1';
+                    font-size: 13px;
+                    color: #A6ADB4;
+                    margin-top: 12px;
+                    .fa-clock{
+                        font-size: 16px;
+                        color: #CBD0D3;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .theerd-box{
+            max-width: 360px;
+            width: 100%;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            .therd-img{
+                width: 100%;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+            }
+            .second-title{
+                margin-top: 40px;
+                margin-left: 40px;
+                padding-bottom: 40px;
+            }
+            .firs-p{
+                font-family: 'Helvetica';
+                font-weight: bold;
+                font-size: 16px;
+            }
+            .second-p{
+                font-family: 'AcuminPro-Regular';
+                font-size: 13px;
+                 max-width: 280px;
+                width: 100%;
+                line-height: 20px;
+                color: #A6ADB4;
+            }
+            .second-p{
+                font-family: 'AcuminPro-Regular_1';
+                font-size: 13px;
+                color: #A6ADB4;
+                margin-top: 12px;
+                .fa-clock{
+                    font-size: 16px;
+                    color: #CBD0D3;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+// .section-01 end
+.section-02{
+    @extend %container;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    .first-box{
+        max-width: 770px;
+        width: 100%;
+        .first-titile{
+            font-family: 'Helvetica';
+            font-weight: bold;
+            font-size: 24px;
+            color: #202124;
+            margin: 40px 0;
+        }
+        .first-bg{
+            
         }
     }
 }

@@ -52,6 +52,9 @@ button {
   outline: none;
   border: 0; }
 
+img {
+  display: block; }
+
 @font-face {
   font-family: 'AcuminPro-BoldItalic';
   src: url("../fonts/AcuminPro-BoldItalic.eot");
@@ -159,6 +162,11 @@ button {
 .header-styles, .banner-content {
   width: 100%; }
 
+.section-01, .section-01 .content-wrapper, .section-02 {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto; }
+
 .header-styles {
   display: flex;
   justify-content: space-between;
@@ -197,10 +205,9 @@ button {
 
 .banner-content {
   padding-top: 50px;
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
   .banner-content .lef-block {
-    width: 50%;
+    width: 63%;
     background-image: url("../img/Image.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -208,7 +215,8 @@ button {
     height: 600px;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-left: 140px; }
     .banner-content .lef-block .bg-title {
       max-width: 600px;
       width: 100%; }
@@ -247,7 +255,7 @@ button {
           border-radius: 6px;
           cursor: pointer; }
   .banner-content .right-block {
-    width: 50%;
+    width: 45%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -338,3 +346,144 @@ button {
           font-size: 16px;
           color: #CBD0D3;
           margin-right: 10px; }
+
+.section-01 {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .section-01 .section-title {
+    display: flex;
+    justify-content: space-between; }
+    .section-01 .section-title .titile-h3 {
+      font-family: 'Helvetica';
+      font-weight: bold;
+      color: #202124; }
+    .section-01 .section-title .slider {
+      max-width: 60px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      .section-01 .section-title .slider .fa-chevron-left {
+        font-size: 15px;
+        color: #707070;
+        cursor: pointer; }
+      .section-01 .section-title .slider .fa-chevron-right {
+        font-size: 15px;
+        color: #202124;
+        cursor: pointer; }
+  .section-01 .content-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between; }
+    .section-01 .content-wrapper .first-box {
+      max-width: 360px;
+      width: 100%;
+      background-color: #FFFFFF;
+      border-radius: 6px; }
+      .section-01 .content-wrapper .first-box .first-img {
+        width: 100%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px; }
+      .section-01 .content-wrapper .first-box .first-title {
+        margin-top: 40px;
+        margin-left: 40px;
+        padding-bottom: 40px; }
+        .section-01 .content-wrapper .first-box .first-title .firs-p {
+          font-family: 'Helvetica';
+          font-weight: bold;
+          font-size: 16px; }
+        .section-01 .content-wrapper .first-box .first-title .second-p {
+          font-family: 'AcuminPro-Regular';
+          font-size: 13px;
+          max-width: 280px;
+          width: 100%;
+          line-height: 20px;
+          color: #A6ADB4; }
+        .section-01 .content-wrapper .first-box .first-title .second-p {
+          font-family: 'AcuminPro-Regular_1';
+          font-size: 13px;
+          color: #A6ADB4;
+          margin-top: 12px; }
+          .section-01 .content-wrapper .first-box .first-title .second-p .fa-clock {
+            font-size: 16px;
+            color: #CBD0D3;
+            margin-right: 10px; }
+    .section-01 .content-wrapper .second-box {
+      max-width: 360px;
+      width: 100%;
+      background-color: #FFFFFF;
+      border-radius: 6px; }
+      .section-01 .content-wrapper .second-box .second-img {
+        width: 100%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px; }
+      .section-01 .content-wrapper .second-box .second-title {
+        margin-top: 40px;
+        margin-left: 40px;
+        padding-bottom: 40px; }
+        .section-01 .content-wrapper .second-box .second-title .firs-p {
+          font-family: 'Helvetica';
+          font-weight: bold;
+          font-size: 16px; }
+        .section-01 .content-wrapper .second-box .second-title .second-p {
+          font-family: 'AcuminPro-Regular';
+          font-size: 13px;
+          max-width: 280px;
+          width: 100%;
+          line-height: 20px;
+          color: #A6ADB4; }
+        .section-01 .content-wrapper .second-box .second-title .second-p {
+          font-family: 'AcuminPro-Regular_1';
+          font-size: 13px;
+          color: #A6ADB4;
+          margin-top: 12px; }
+          .section-01 .content-wrapper .second-box .second-title .second-p .fa-clock {
+            font-size: 16px;
+            color: #CBD0D3;
+            margin-right: 10px; }
+    .section-01 .content-wrapper .theerd-box {
+      max-width: 360px;
+      width: 100%;
+      background-color: #FFFFFF;
+      border-radius: 6px; }
+      .section-01 .content-wrapper .theerd-box .therd-img {
+        width: 100%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px; }
+      .section-01 .content-wrapper .theerd-box .second-title {
+        margin-top: 40px;
+        margin-left: 40px;
+        padding-bottom: 40px; }
+      .section-01 .content-wrapper .theerd-box .firs-p {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 16px; }
+      .section-01 .content-wrapper .theerd-box .second-p {
+        font-family: 'AcuminPro-Regular';
+        font-size: 13px;
+        max-width: 280px;
+        width: 100%;
+        line-height: 20px;
+        color: #A6ADB4; }
+      .section-01 .content-wrapper .theerd-box .second-p {
+        font-family: 'AcuminPro-Regular_1';
+        font-size: 13px;
+        color: #A6ADB4;
+        margin-top: 12px; }
+        .section-01 .content-wrapper .theerd-box .second-p .fa-clock {
+          font-size: 16px;
+          color: #CBD0D3;
+          margin-right: 10px; }
+
+.section-02 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between; }
+  .section-02 .first-box {
+    max-width: 770px;
+    width: 100%; }
+    .section-02 .first-box .first-titile {
+      font-family: 'Helvetica';
+      font-weight: bold;
+      font-size: 24px;
+      color: #202124;
+      margin: 40px 0; }
