@@ -1,0 +1,176 @@
+.footer-section{
+    background-color: #A6ADB4;
+    margin-top: 100px;
+    .footer-wrapper{
+        @extend %container;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 56px;
+        padding-bottom: 60px;
+        .second-nav-box{
+            max-width: 379px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .footer-logo{
+                font-family: 'AcuminPro-Bold';
+                font-size: 13px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                transition: all 0.5s;
+                &:hover{
+                    transition: all 0.5s;
+                    color: #FA6980;
+                }
+            }
+            .footer-ul{
+                font-family: 'Helvetica-Bold';
+                font-size: 13px;
+                color: #CBD0D3;
+                text-transform: uppercase;
+                .footer-li{
+                    margin-top: 8px;
+                    transition: all 0.5s;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                    &:hover{
+                        color: black;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+            .second-ul{
+                font-family: 'Helvetica-Bold';
+                font-size: 13px;
+                color: #CBD0D3;
+                text-transform: uppercase;
+                .second-li{
+                    margin-top: 8px;
+                    transition: all 0.5s;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                    &:hover{
+                        color: black;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+            .therd-ul{
+                font-family: 'Helvetica-Bold';
+                font-size: 13px;
+                color: #CBD0D3;
+                text-transform: uppercase;
+                .therd-li{
+                    margin-top: 8px;
+                    transition: all 0.5s;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                    &:hover{
+                        color: black;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+        .form-wrapper{
+            max-width: 262px;
+            width: 100%;
+            .form{
+                width: 100%;
+                position: relative;
+                .input-first{
+                    width: 100%;
+                    height: 40px;
+                    border: 2px solid #CBD0D3 ;
+                    border-radius: 6px;
+                    background: #A6ADB4;
+                    padding-left: 20px;
+                    font-family: 'Helvetica';
+                    font-size: 13px;
+                    &::placeholder{
+                        font-family: 'Helvetica';
+                        font-size: 13px;
+                    }
+                }
+                .fa-location-arrow{
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    position: absolute;
+                    top: 12px;
+                    right: 19px;
+                    bottom: 12px;
+                    cursor: pointer;
+                }
+            }
+            .form-p{
+                font-family: 'Helvetica';
+                font-size: 11px;
+                color: #CBD0D3;
+                margin-top: 16px;
+            }
+        }
+        .social-icon{
+            max-width: 190px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .social-i{
+                max-width: 20px;
+                width: 100%;
+                .fa-instagram{
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    transition: all 0.3s;
+                    &:hover{
+                        font-size: 20px;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .social-t{
+                max-width: 20px;
+                width: 100%;
+                .fa-twitter{
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    transition: all 0.3s;
+                    &:hover{
+                        font-size: 20px;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .social-f{
+                max-width: 20px;
+                width: 100%;
+                .fa-facebook-f{
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    transition: all 0.3s;
+                    &:hover{
+                        font-size: 20px;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .social-a{
+                max-width: 20px;
+                width: 100%;
+                .fa-globe-americas{
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    transition: all 0.3s;
+                    &:hover{
+                        font-size: 20px;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            
+        }
+    }
+}
