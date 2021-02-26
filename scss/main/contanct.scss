@@ -254,3 +254,42 @@
 
 
 // section-01 end 
+// section-02
+.section-02-wrapper{
+    @extend %container;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    border-bottom: 1px solid #EBEDED;
+
+    .bg-section-02{  
+        background-image: url('../img/Image.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        border-radius: 6px;
+    }
+    .text-wrapper{
+        max-width: 760px;
+        width: 100%;
+        .first-p{
+            width: 100%;
+
+            margin: 45px 0;
+            font-family: 'Helvetica';
+            color: #A6ADB4;
+            line-height: 25px;
+        }
+        .second-p{
+            width: 100%;
+            margin-bottom: 45px;
+            font-family: 'Helvetica';
+            color: #A6ADB4;
+            line-height: 25px;
+        }
+    }
+    
+}
+
+// section-02 end 
