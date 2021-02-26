@@ -175,9 +175,10 @@
             
         }
         .button{
-            margin-left:160px;
-            margin-top: 56px; 
-                // width: 100%;
+                max-width: 360px;
+                width: 100%;
+                display: flex;
+                align-items: center;
             .for-label{
                 max-width: 134px;
                 width: 100%;
@@ -188,6 +189,7 @@
                 font-size: 11px;
                 color: #ffff;
                 cursor: pointer;
+                margin-top: 30px
             }
         }
     }

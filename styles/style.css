@@ -162,7 +162,7 @@ img {
 .header-styles, .banner-content {
   width: 100%; }
 
-.section-01, .section-01 .content-wrapper, .section-02, .footer-section .footer-wrapper, .banner-section, .section-01 .wrapper, .section-02-wrapper {
+.section-01, .section-01 .content-wrapper, .section-02, .section-02 .wrapper, .footer-section .footer-wrapper, .banner-section, .section-01 .wrapper, .section-02-wrapper {
   max-width: 1260px;
   width: 100%;
   margin: 0 auto; }
@@ -500,50 +500,120 @@ img {
 
 .section-02 {
   margin-top: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: space-between; }
-  .section-02 .first-box {
-    max-width: 770px;
-    width: 100%; }
-    .section-02 .first-box .first-titile {
+  margin-bottom: 40px; }
+  .section-02 .sec-02-therd-titile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; }
+    .section-02 .sec-02-therd-titile .therd-titile {
       font-family: 'Helvetica';
       font-weight: bold;
       font-size: 24px;
       color: #202124;
       margin: 40px 0; }
-    .section-02 .first-box .first-bg {
-      background-image: url("../img/Image23.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 430px;
-      border-radius: 6px;
-      position: relative;
-      filter: grayscale(0%);
-      transition: all 0.3s; }
-      .section-02 .first-box .first-bg:hover {
-        filter: grayscale(100%);
+    .section-02 .sec-02-therd-titile .slider {
+      display: flex;
+      justify-content: flex-end;
+      max-width: 360px;
+      width: 100%;
+      margin-top: 45px; }
+      .section-02 .sec-02-therd-titile .slider .fa-chevron-left {
+        margin-right: 40px;
+        color: #707070;
+        cursor: pointer;
+        font-size: 15px; }
+      .section-02 .sec-02-therd-titile .slider .fa-chevron-right {
+        font-size: 15px;
+        cursor: pointer;
+        color: #202124; }
+  .section-02 .wrapper {
+    display: flex;
+    justify-content: space-between; }
+    .section-02 .wrapper .first-box {
+      max-width: 770px;
+      width: 100%; }
+      .section-02 .wrapper .first-box .first-bg {
+        background-image: url("../img/Image23.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 430px;
+        border-radius: 6px;
+        position: relative;
+        filter: grayscale(0%);
         transition: all 0.3s; }
-      .section-02 .first-box .first-bg .bg-title {
-        font-family: 'Helvetica';
-        font-weight: bold;
-        color: #FFFFFF;
-        font-size: 16px;
-        position: absolute;
-        top: 40px;
-        left: 40px; }
-      .section-02 .first-box .first-bg .bottom-title {
-        position: absolute;
-        bottom: 40px;
-        left: 40px; }
-        .section-02 .first-box .first-bg .bottom-title .large-article {
+        .section-02 .wrapper .first-box .first-bg:hover {
+          filter: grayscale(100%);
+          transition: all 0.3s; }
+        .section-02 .wrapper .first-box .first-bg .bg-title {
+          font-family: 'Helvetica';
+          font-weight: bold;
+          color: #FFFFFF;
+          font-size: 16px;
+          position: absolute;
+          top: 40px;
+          left: 40px; }
+        .section-02 .wrapper .first-box .first-bg .bottom-title {
+          position: absolute;
+          bottom: 40px;
+          left: 40px; }
+          .section-02 .wrapper .first-box .first-bg .bottom-title .large-article {
+            font-family: 'Helvetica';
+            font-weight: bold;
+            color: #FFFFFF;
+            font-size: 24px;
+            margin-bottom: 10px; }
+          .section-02 .wrapper .first-box .first-bg .bottom-title .bottom-p {
+            max-width: 680px;
+            width: 100%;
+            font-family: 'AcuminPro-Regular_1';
+            font-size: 16px;
+            color: #FFFFFF;
+            line-height: 25px;
+            margin-bottom: 10px; }
+          .section-02 .wrapper .first-box .first-bg .bottom-title .second-p {
+            font-family: 'Helvetica-Oblique';
+            font-size: 13px;
+            color: #A6ADB4;
+            margin-top: 12px;
+            font-weight: normal; }
+            .section-02 .wrapper .first-box .first-bg .bottom-title .second-p .fa-clock {
+              font-size: 16px;
+              color: #CBD0D3;
+              margin-right: 10px; }
+      .section-02 .wrapper .first-box .second-bg {
+        background-image: url("../img/1231.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 430px;
+        border-radius: 6px;
+        margin-top: 40px;
+        position: relative;
+        filter: grayscale(0%);
+        transition: all 0.3s; }
+        .section-02 .wrapper .first-box .second-bg:hover {
+          filter: grayscale(100%);
+          transition: all 0.3s; }
+        .section-02 .wrapper .first-box .second-bg .bg-box .second-titile {
+          font-family: 'Helvetica';
+          font-weight: bold;
+          color: #FFFFFF;
+          font-size: 16px;
+          position: absolute;
+          top: 40px;
+          left: 40px; }
+        .section-02 .wrapper .first-box .second-bg .bg-box .botom-titile-01 {
+          position: absolute;
+          bottom: 40px;
+          left: 40px; }
+        .section-02 .wrapper .first-box .second-bg .bg-box .large-article {
           font-family: 'Helvetica';
           font-weight: bold;
           color: #FFFFFF;
           font-size: 24px;
           margin-bottom: 10px; }
-        .section-02 .first-box .first-bg .bottom-title .bottom-p {
+        .section-02 .wrapper .first-box .second-bg .bg-box .bottom-p {
           max-width: 680px;
           width: 100%;
           font-family: 'AcuminPro-Regular_1';
@@ -551,165 +621,99 @@ img {
           color: #FFFFFF;
           line-height: 25px;
           margin-bottom: 10px; }
-        .section-02 .first-box .first-bg .bottom-title .second-p {
+        .section-02 .wrapper .first-box .second-bg .bg-box .second-p {
           font-family: 'Helvetica-Oblique';
           font-size: 13px;
           color: #A6ADB4;
           margin-top: 12px;
           font-weight: normal; }
-          .section-02 .first-box .first-bg .bottom-title .second-p .fa-clock {
+          .section-02 .wrapper .first-box .second-bg .bg-box .second-p .fa-clock {
             font-size: 16px;
             color: #CBD0D3;
             margin-right: 10px; }
-    .section-02 .first-box .second-bg {
-      background-image: url("../img/1231.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 430px;
-      border-radius: 6px;
-      margin-top: 40px;
-      position: relative;
-      filter: grayscale(0%);
-      transition: all 0.3s; }
-      .section-02 .first-box .second-bg:hover {
-        filter: grayscale(100%);
-        transition: all 0.3s; }
-      .section-02 .first-box .second-bg .bg-box .second-titile {
-        font-family: 'Helvetica';
-        font-weight: bold;
-        color: #FFFFFF;
-        font-size: 16px;
-        position: absolute;
-        top: 40px;
-        left: 40px; }
-      .section-02 .first-box .second-bg .bg-box .botom-titile-01 {
-        position: absolute;
-        bottom: 40px;
-        left: 40px; }
-      .section-02 .first-box .second-bg .bg-box .large-article {
-        font-family: 'Helvetica';
-        font-weight: bold;
-        color: #FFFFFF;
-        font-size: 24px;
-        margin-bottom: 10px; }
-      .section-02 .first-box .second-bg .bg-box .bottom-p {
-        max-width: 680px;
-        width: 100%;
-        font-family: 'AcuminPro-Regular_1';
-        font-size: 16px;
-        color: #FFFFFF;
-        line-height: 25px;
-        margin-bottom: 10px; }
-      .section-02 .first-box .second-bg .bg-box .second-p {
-        font-family: 'Helvetica-Oblique';
-        font-size: 13px;
-        color: #A6ADB4;
-        margin-top: 12px;
-        font-weight: normal; }
-        .section-02 .first-box .second-bg .bg-box .second-p .fa-clock {
-          font-size: 16px;
-          color: #CBD0D3;
-          margin-right: 10px; }
-  .section-02 .second-box {
-    max-width: 360px;
-    width: 100%;
-    margin-top: 45px; }
-    .section-02 .second-box .slider {
-      display: flex;
-      justify-content: flex-end;
+    .section-02 .wrapper .second-box {
       max-width: 360px;
       width: 100%; }
-      .section-02 .second-box .slider .fa-chevron-left {
-        margin-right: 40px;
-        color: #707070;
-        cursor: pointer;
-        font-size: 15px; }
-      .section-02 .second-box .slider .fa-chevron-right {
-        font-size: 15px;
-        cursor: pointer;
-        color: #202124; }
-    .section-02 .second-box .first-box {
-      max-width: 360px;
-      width: 100%;
-      margin-top: 45px; }
-      .section-02 .second-box .first-box .first-img {
-        width: 100%;
-        border-radius: 6px;
-        transition: all 0.3s; }
-        .section-02 .second-box .first-box .first-img:hover {
-          transition: all 0.3s;
-          transform: scale(1.01); }
-      .section-02 .second-box .first-box .firts-h4 {
-        font-family: 'AcuminPro-Bold';
-        font-size: 16px;
-        margin-top: 20px;
-        margin-bottom: 10px; }
-      .section-02 .second-box .first-box .first-p {
-        font-family: 'Helvetica-Oblique';
-        font-size: 13px;
-        color: #A6ADB4; }
-        .section-02 .second-box .first-box .first-p .fa-clock {
+      .section-02 .wrapper .second-box .first-box {
+        max-width: 360px;
+        width: 100%; }
+        .section-02 .wrapper .second-box .first-box .first-img {
+          width: 100%;
+          border-radius: 6px;
+          transition: all 0.3s; }
+          .section-02 .wrapper .second-box .first-box .first-img:hover {
+            transition: all 0.3s;
+            transform: scale(1.01); }
+        .section-02 .wrapper .second-box .first-box .firts-h4 {
+          font-family: 'AcuminPro-Bold';
           font-size: 16px;
-          color: #A6ADB4;
-          margin-right: 10px; }
-        .section-02 .second-box .first-box .first-p .first-span {
-          text-decoration: underline;
-          text-decoration-color: #A6ADB4; }
-    .section-02 .second-box .second-box {
-      max-width: 360px;
-      width: 100%;
-      margin-top: 40px; }
-      .section-02 .second-box .second-box .second-img {
+          margin-top: 20px;
+          margin-bottom: 10px; }
+        .section-02 .wrapper .second-box .first-box .first-p {
+          font-family: 'Helvetica-Oblique';
+          font-size: 13px;
+          color: #A6ADB4; }
+          .section-02 .wrapper .second-box .first-box .first-p .fa-clock {
+            font-size: 16px;
+            color: #A6ADB4;
+            margin-right: 10px; }
+          .section-02 .wrapper .second-box .first-box .first-p .first-span {
+            text-decoration: underline;
+            text-decoration-color: #A6ADB4; }
+      .section-02 .wrapper .second-box .second-box {
+        max-width: 360px;
         width: 100%;
-        border-radius: 6px;
-        transition: all 0.3s; }
-        .section-02 .second-box .second-box .second-img:hover {
-          transition: all 0.3s;
-          transform: scale(1.01); }
-      .section-02 .second-box .second-box .second-h4 {
-        font-family: 'AcuminPro-Bold';
-        font-size: 16px;
-        margin-top: 20px;
-        margin-bottom: 10px; }
-      .section-02 .second-box .second-box .second-p {
-        font-family: 'Helvetica-Oblique';
-        font-size: 13px;
-        color: #A6ADB4; }
-        .section-02 .second-box .second-box .second-p .fa-clock {
+        margin-top: 40px; }
+        .section-02 .wrapper .second-box .second-box .second-img {
+          width: 100%;
+          border-radius: 6px;
+          transition: all 0.3s; }
+          .section-02 .wrapper .second-box .second-box .second-img:hover {
+            transition: all 0.3s;
+            transform: scale(1.01); }
+        .section-02 .wrapper .second-box .second-box .second-h4 {
+          font-family: 'AcuminPro-Bold';
           font-size: 16px;
-          color: #A6ADB4;
-          margin-right: 10px; }
-        .section-02 .second-box .second-box .second-p .second-span {
-          text-decoration: underline;
-          text-decoration-color: #A6ADB4; }
-    .section-02 .second-box .therd-box {
-      max-width: 360px;
-      width: 100%;
-      margin-top: 40px; }
-      .section-02 .second-box .therd-box .therd-img {
+          margin-top: 20px;
+          margin-bottom: 10px; }
+        .section-02 .wrapper .second-box .second-box .second-p {
+          font-family: 'Helvetica-Oblique';
+          font-size: 13px;
+          color: #A6ADB4; }
+          .section-02 .wrapper .second-box .second-box .second-p .fa-clock {
+            font-size: 16px;
+            color: #A6ADB4;
+            margin-right: 10px; }
+          .section-02 .wrapper .second-box .second-box .second-p .second-span {
+            text-decoration: underline;
+            text-decoration-color: #A6ADB4; }
+      .section-02 .wrapper .second-box .therd-box {
+        max-width: 360px;
         width: 100%;
-        border-radius: 6px;
-        transition: all 0.3s; }
-        .section-02 .second-box .therd-box .therd-img:hover {
-          transition: all 0.3s;
-          transform: scale(1.01); }
-      .section-02 .second-box .therd-box .therd-h4 {
-        font-family: 'AcuminPro-Bold';
-        font-size: 16px;
-        margin-top: 20px;
-        margin-bottom: 10px; }
-      .section-02 .second-box .therd-box .therd-p {
-        font-family: 'Helvetica-Oblique';
-        font-size: 13px;
-        color: #A6ADB4; }
-        .section-02 .second-box .therd-box .therd-p .fa-clock {
+        margin-top: 40px; }
+        .section-02 .wrapper .second-box .therd-box .therd-img {
+          width: 100%;
+          border-radius: 6px;
+          transition: all 0.3s; }
+          .section-02 .wrapper .second-box .therd-box .therd-img:hover {
+            transition: all 0.3s;
+            transform: scale(1.01); }
+        .section-02 .wrapper .second-box .therd-box .therd-h4 {
+          font-family: 'AcuminPro-Bold';
           font-size: 16px;
-          color: #A6ADB4;
-          margin-right: 10px; }
-        .section-02 .second-box .therd-box .therd-p .therd-span {
-          text-decoration: underline;
-          text-decoration-color: #A6ADB4; }
+          margin-top: 20px;
+          margin-bottom: 10px; }
+        .section-02 .wrapper .second-box .therd-box .therd-p {
+          font-family: 'Helvetica-Oblique';
+          font-size: 13px;
+          color: #A6ADB4; }
+          .section-02 .wrapper .second-box .therd-box .therd-p .fa-clock {
+            font-size: 16px;
+            color: #A6ADB4;
+            margin-right: 10px; }
+          .section-02 .wrapper .second-box .therd-box .therd-p .therd-span {
+            text-decoration: underline;
+            text-decoration-color: #A6ADB4; }
 
 .footer-section {
   background-color: #A6ADB4;
@@ -996,8 +1000,10 @@ img {
             font-size: 13px;
             color: #A6ADB4; }
     .banner-section .right-title-wrapper .button {
-      margin-left: 160px;
-      margin-top: 56px; }
+      max-width: 360px;
+      width: 100%;
+      display: flex;
+      align-items: center; }
       .banner-section .right-title-wrapper .button .for-label {
         max-width: 134px;
         width: 100%;
@@ -1007,7 +1013,8 @@ img {
         font-family: 'Helvetica-Bold_1';
         font-size: 11px;
         color: #ffff;
-        cursor: pointer; }
+        cursor: pointer;
+        margin-top: 30px; }
 
 .section-01 {
   margin-top: 40px; }
