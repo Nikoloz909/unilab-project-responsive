@@ -94,6 +94,7 @@
                     &::placeholder{
                         font-family: 'Helvetica';
                         font-size: 13px;
+                        color: #CBD0D3;
                     }
                 }
                 .fa-location-arrow{
@@ -114,7 +115,7 @@
             }
         }
         .social-icon{
-            max-width: 190px;
+            max-width: 160px;
             width: 100%;
             display: flex;
             justify-content: space-between;

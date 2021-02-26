@@ -59,10 +59,9 @@
     @extend %container-fluid;   
     padding-top: 50px;
     display:flex;
-
     .lef-block{
         // max-width: 840px;
-        width: 63%;
+        width: 60%;
         background-image: url('../img/Image1.png');
         background-position: center;
         background-repeat: no-repeat;
@@ -111,7 +110,12 @@
                     font-size: 11px;
                     margin-top: 30px;
                     border-radius: 6px;
+                    transition: all 0.3s;
                     cursor: pointer;
+                    &:hover{
+                        transition: all 0.3s;
+                        background: transparent;
+                    }
                 }
             }
         }
@@ -274,6 +278,11 @@
                 width: 100%;
                 border-top-left-radius: 6px;
                 border-top-right-radius: 6px;
+                transition: all 0.3s;
+                &:hover{
+                    transition: all 0.3s;
+                    transform: scale(1.01);
+                }
             }
             .first-title{
                 margin-top: 40px;
@@ -315,6 +324,11 @@
                 width: 100%;
                 border-top-left-radius: 6px;
                 border-top-right-radius: 6px;
+                transition: all 0.3s;
+                &:hover{
+                    transition: all 0.3s;
+                    transform: scale(1.01);
+                }
             }
             .second-title{
                 margin-top: 40px;
@@ -355,6 +369,11 @@
                 width: 100%;
                 border-top-left-radius: 6px;
                 border-top-right-radius: 6px;
+                transition: all 0.3s;
+                &:hover{
+                    transition: all 0.3s;
+                    transform: scale(1.01);
+                }
             }
             .second-title{
                 margin-top: 40px;
@@ -413,6 +432,12 @@
             height: 430px;
             border-radius: 6px;
             position: relative;
+            filter: grayscale(0%);
+            transition: all 0.3s;
+            &:hover{
+                filter: grayscale(100%);
+                transition: all 0.3s;
+            }
             .bg-title{
                 font-family: 'Helvetica';
                 font-weight: bold;
@@ -466,6 +491,12 @@
             border-radius: 6px;
             margin-top: 40px;
             position: relative;
+            filter: grayscale(0%);
+            transition: all 0.3s;
+            &:hover{
+                filter: grayscale(100%);
+                transition: all 0.3s;
+            }
             .bg-box{
                 .second-titile{
                     font-family: 'Helvetica';
@@ -541,6 +572,11 @@
            .first-img{
                width: 100%;
                border-radius: 6px;
+               transition: all 0.3s;
+                &:hover{
+                    transition: all 0.3s;
+                    transform: scale(1.01);
+                }
            }
            .firts-h4{
                 font-family: 'AcuminPro-Bold';
@@ -570,6 +606,11 @@
             .second-img{
                 width: 100%;
                 border-radius: 6px;
+                transition: all 0.3s;
+                &:hover{
+                    transition: all 0.3s;
+                    transform: scale(1.01);
+                }
             }
             .second-h4{
                 font-family: 'AcuminPro-Bold';
@@ -599,6 +640,11 @@
             .therd-img{
                 width: 100%;
                 border-radius: 6px;
+                transition: all 0.3s;
+                &:hover{
+                    transition: all 0.3s;
+                    transform: scale(1.01);
+                }
             }
             .therd-h4{
                 font-family: 'AcuminPro-Bold';
