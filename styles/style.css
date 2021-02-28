@@ -177,8 +177,10 @@ img {
   z-index: 999999999;
   background-color: #F6F8F9;
   margin-bottom: 50px; }
-  .header-styles .burger-conainer .fa-bars {
+  .header-styles .burger-conainer {
     display: none; }
+    .header-styles .burger-conainer .fa-bars {
+      display: none; }
   .header-styles .logo {
     color: #FA6980;
     font-family: 'Helvetica-Bold';
@@ -1103,3 +1105,114 @@ img {
       font-family: 'Helvetica';
       color: #A6ADB4;
       line-height: 25px; }
+
+@media (max-width: 1240px) {
+  .banner-content .content-wrapper, .section-01, .section-01 .content-wrapper, .section-02, .section-02 .wrapper, .footer-section .footer-wrapper, .banner-section, .section-01 .wrapper, .section-02-wrapper {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .section-01 .section-title {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .section-01 .content-wrapper .first-box, .section-01 .content-wrapper .second-box, .section-01 .content-wrapper .theerd-box {
+    max-width: 340px;
+    width: 100%; }
+  .section-02 .sec-02-therd-titile {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .section-02 .wrapper .first-box {
+    max-width: 700px; }
+    .section-02 .wrapper .first-box .first-bg .bottom-title .bottom-p {
+      max-width: 650px; }
+    .section-02 .wrapper .first-box .second-bg .bg-box .bottom-p {
+      max-width: 650px; }
+  .section-02 .wrapper .second-box {
+    max-width: 340px; }
+    .section-02 .wrapper .second-box .first-box, .section-02 .wrapper .second-box .second-box {
+      margin-bottom: 60px; }
+    .section-02 .wrapper .second-box .therd-box {
+      margin-top: 60px; } }
+
+@media (max-width: 1155px) {
+  .section-01 .section-title {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .section-01 .content-wrapper .first-box, .section-01 .content-wrapper .second-box, .section-01 .content-wrapper .theerd-box {
+    max-width: 330px;
+    width: 100%; }
+  .section-02 .sec-02-therd-titile {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .section-02 .wrapper .first-box {
+    max-width: 690px; }
+    .section-02 .wrapper .first-box .first-bg .bottom-title .bottom-p {
+      max-width: 630px; }
+    .section-02 .wrapper .first-box .second-bg .bg-box .bottom-p {
+      max-width: 630px; }
+  .section-02 .wrapper .second-box {
+    max-width: 320px; }
+    .section-02 .wrapper .second-box .first-box, .section-02 .wrapper .second-box .second-box {
+      margin-bottom: 75px; }
+    .section-02 .wrapper .second-box .therd-box {
+      margin-top: 75px; } }
+
+@media (max-width: 1120px) {
+  .banner-content .content-wrapper .left-block .bg-title {
+    max-width: 570px;
+    width: 100%; }
+  .section-01 .content-wrapper .first-box, .section-01 .content-wrapper .second-box, .section-01 .content-wrapper .theerd-box {
+    max-width: 320px;
+    width: 100%; }
+  .section-02 .wrapper .first-box {
+    max-width: 670px; }
+    .section-02 .wrapper .first-box .first-bg .bottom-title .bottom-p {
+      max-width: 600px;
+      font-size: 15px; }
+    .section-02 .wrapper .first-box .second-bg .bg-box .botom-titile-01 .bottom-p {
+      max-width: 600px;
+      font-size: 15px; }
+  .section-02 .wrapper .second-box {
+    max-width: 310px; }
+    .section-02 .wrapper .second-box .first-box, .section-02 .wrapper .second-box .second-box {
+      margin-bottom: 85px; }
+    .section-02 .wrapper .second-box .therd-box {
+      margin-top: 85px; } }
+
+@media (max-width: 1090px) {
+  .banner-content .content-wrapper .left-block .bg-title {
+    max-width: 550px;
+    width: 100%; }
+  .section-01 .content-wrapper .first-box, .section-01 .content-wrapper .second-box, .section-01 .content-wrapper .theerd-box {
+    max-width: 300px;
+    width: 100%; }
+  .section-02 .wrapper .first-box {
+    max-width: 650px; }
+    .section-02 .wrapper .first-box .first-bg .bottom-title .bottom-p {
+      max-width: 580px;
+      font-size: 14px; }
+    .section-02 .wrapper .first-box .second-bg .bg-box .botom-titile-01 .bottom-p {
+      max-width: 580px;
+      font-size: 14px; }
+  .section-02 .wrapper .second-box {
+    max-width: 300px; }
+    .section-02 .wrapper .second-box .first-box, .section-02 .wrapper .second-box .second-box {
+      margin-bottom: 90px; }
+    .section-02 .wrapper .second-box .therd-box {
+      margin-top: 90px; } }
+
+@media (max-width: 768px) {
+  .header-styles .burger-conainer {
+    display: block; }
+    .header-styles .burger-conainer .fa-bars {
+      display: block; }
+  .header-styles .navbar, .header-styles .logo {
+    display: none; }
+  .header-styles .mobile-nav {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 200px;
+    bottom: 0;
+    top: 0;
+    background-color: blue; }
+  .header-styles .d-block {
+    display: block; } }

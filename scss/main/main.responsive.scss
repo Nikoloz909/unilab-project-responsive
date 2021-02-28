@@ -1,0 +1,252 @@
+@media(max-width:1240px){
+    %container{
+       padding-left: 20px;
+       padding-right: 20px;
+    }
+    .section-01{
+        .section-title{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .content-wrapper{
+            .first-box,.second-box,.theerd-box{
+                max-width: 340px;
+                width: 100%;
+            }
+        }
+    }
+    .section-02{
+        .sec-02-therd-titile{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .wrapper{
+            .first-box{
+                max-width: 700px;
+                .first-bg{
+                    .bottom-title{
+                        .bottom-p{
+                            max-width: 650px;
+                        }
+                    }
+                }
+                .second-bg{
+                    .bg-box{
+                        .bottom-p{
+                            max-width: 650px;
+                        }
+                    }
+                }
+            }
+            .second-box{
+                max-width: 340px;
+                .first-box,.second-box{
+                    margin-bottom: 60px;
+                }
+                .therd-box{
+                    margin-top: 60px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1155px){
+    .section-01{
+        .section-title{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .content-wrapper{
+            .first-box,.second-box,.theerd-box{
+                max-width: 330px;
+                width: 100%;
+            }
+        }
+    }
+    .section-02{
+        .sec-02-therd-titile{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .wrapper{
+            .first-box{
+                max-width: 690px;
+                .first-bg{
+                    .bottom-title{
+                        .bottom-p{
+                            max-width: 630px;
+                            
+                        }
+                    }
+                }
+                .second-bg{
+                    .bg-box{
+                        .bottom-p{
+                            max-width: 630px;
+                           
+                        }
+                    }
+                }
+            }
+            .second-box{
+                max-width: 320px;
+                .first-box,.second-box{
+                    margin-bottom: 75px;
+                }
+                .therd-box{
+                    margin-top: 75px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1120px){
+    .banner-content{
+        .content-wrapper{
+            .left-block{
+                .bg-title{
+                    max-width: 570px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .section-01{
+        .content-wrapper{
+            .first-box,.second-box,.theerd-box{
+                max-width: 320px;
+                width: 100%;
+            }
+        }
+    }
+    .section-02{
+        .wrapper{
+            .first-box{
+                max-width: 670px;
+                .first-bg{
+                    .bottom-title{
+                        .bottom-p{
+                            max-width: 600px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .second-bg{
+                    .bg-box{
+                        .botom-titile-01{
+                            .bottom-p{
+                                max-width: 600px;
+                                font-size: 15px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .second-box{
+                max-width: 310px;
+                .first-box,.second-box{
+                    margin-bottom: 85px;
+                }
+                .therd-box{
+                    margin-top: 85px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1090px){
+    .banner-content{
+        .content-wrapper{
+            .left-block{
+                .bg-title{
+                    max-width: 550px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .section-01{
+        .content-wrapper{
+            .first-box,.second-box,.theerd-box{
+                max-width: 300px;
+                width: 100%;
+            }
+        }
+    }
+    .section-02{
+        .wrapper{
+            .first-box{
+                max-width: 650px;
+                .first-bg{
+                    .bottom-title{
+                        .bottom-p{
+                            max-width: 580px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .second-bg{
+                    .bg-box{
+                        .botom-titile-01{
+                            .bottom-p{
+                                max-width: 580px;
+                                font-size: 14px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .second-box{
+                max-width: 300px;
+                .first-box,.second-box{
+                    margin-bottom: 90px;
+                }
+                .therd-box{
+                    margin-top: 90px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .header-styles{
+        .burger-conainer{
+            display: block;
+            .fa-bars{
+                display: block;
+            }
+        }
+        .navbar, .logo {
+            display: none;
+        }
+        
+        .mobile-nav{
+            display: none;
+            position: fixed;
+            left:0;
+            width: 200px;
+            bottom: 0;
+            top: 0;
+            background-color: blue;
+        }
+
+        .d-block {
+            display: block;
+        }
+    }
+}
