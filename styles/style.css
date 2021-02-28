@@ -1465,51 +1465,142 @@ img {
       margin-top: 160px; } }
 
 @media (max-width: 768px) {
+  .header-styles .navbar .nav-ul {
+    display: none; }
   .header-styles .mob-logo {
     color: #FA6980;
     font-family: 'Helvetica';
-    font-size: 13px; }
+    font-size: 13px;
+    padding-left: 15px; }
   .header-styles .burger-conainer {
-    display: block; }
+    display: block;
+    padding-left: 15px; }
     .header-styles .burger-conainer .fa-bars {
       display: block;
       font-size: 30px;
       color: #343638;
       margin-left: 30px;
       cursor: pointer; }
-  .header-styles .navbar, .header-styles .logo {
-    display: none; }
   .header-styles .mobile-nav {
     display: none;
     position: fixed;
     left: 0;
     padding-top: 15px;
-    padding-left: 15px;
-    width: 287px;
+    max-width: 287px;
+    width: 100%;
     bottom: 0;
     top: 0;
     height: 100%;
     background-color: #F6F8F9; }
+    .header-styles .mobile-nav .fa-times {
+      cursor: pointer;
+      color: #707070;
+      font-size: 20px;
+      margin-bottom: 15px; }
     .header-styles .mobile-nav .mob-nav-ul {
       font-family: 'Helvetica-Bold';
       font-size: 11px;
-      margin-top: 90px; }
+      margin-top: 90px;
+      padding-left: 15px; }
       .header-styles .mobile-nav .mob-nav-ul .mob-nav-li {
+        max-width: 286px;
         width: 100%;
         margin-top: 40px;
         color: #707070; }
+        .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .fa-home, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .fa-compass, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .fa-image, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .fa-envelope, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .fa-user-circle {
+          padding-right: 30px;
+          font-size: 15px;
+          color: #707070; }
         .header-styles .mobile-nav .mob-nav-ul .mob-nav-li:hover {
           transition: all 0.3s;
           color: black; }
         .header-styles .mobile-nav .mob-nav-ul .mob-nav-li:first-child {
           color: #000; }
-          .header-styles .mobile-nav .mob-nav-ul .mob-nav-li:first-child .fa-home {
-            color: black; }
         .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .mob-nav-a {
-          margin-right: 30px; }
-          .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .mob-nav-a .fa-home, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .mob-nav-a .fa-compass, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .mob-nav-a .fa-image, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .mob-nav-a .fa-envelope, .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .mob-nav-a .fa-user-circle {
-            margin-right: 30px;
-            font-size: 16px;
-            color: #707070; }
+          max-width: 280px;
+          width: 100%; }
+          .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .mob-nav-a .fa-home {
+            color: black; }
+        .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .img-d-flex {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .header-styles .mobile-nav .mob-nav-ul .mob-nav-li .img-d-flex .nav-img-01 {
+            max-width: 16px;
+            width: 100%;
+            margin-right: 30px; }
   .header-styles .d-block {
-    display: block; } }
+    display: block; }
+  .header-styles .nav-wrapper {
+    padding-left: 15px;
+    margin-top: 150px;
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    background-color: #A6ADB4; }
+    .header-styles .nav-wrapper .wrapp-ul, .header-styles .nav-wrapper .wrapp-ull {
+      max-width: 59px;
+      width: 100%;
+      font-family: 'Helvetica-Bold';
+      font-size: 11px;
+      color: #CBD0D3;
+      transition: all 0.3s; }
+      .header-styles .nav-wrapper .wrapp-ul .wrapp-li, .header-styles .nav-wrapper .wrapp-ul .wrapp-lii, .header-styles .nav-wrapper .wrapp-ull .wrapp-li, .header-styles .nav-wrapper .wrapp-ull .wrapp-lii {
+        margin-top: 15px;
+        transition: all 0.3s; }
+        .header-styles .nav-wrapper .wrapp-ul .wrapp-li:hover, .header-styles .nav-wrapper .wrapp-ul .wrapp-lii:hover, .header-styles .nav-wrapper .wrapp-ull .wrapp-li:hover, .header-styles .nav-wrapper .wrapp-ull .wrapp-lii:hover {
+          transition: all 0.3s;
+          color: #F6F8F9; }
+    .header-styles .nav-wrapper .wrapp-ull {
+      margin-left: 50px; }
+  .header-styles .social-wrapper {
+    background-color: #A6ADB4;
+    height: 50%;
+    padding-top: 90px; }
+    .header-styles .social-wrapper .social-icon {
+      width: 176px;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 15px;
+      padding-right: 40px;
+      background-color: #A6ADB4; }
+      .header-styles .social-wrapper .social-icon .social-i {
+        max-width: 20px;
+        width: 100%; }
+        .header-styles .social-wrapper .social-icon .social-i .fa-instagram {
+          color: #FFFFFF;
+          font-size: 16px;
+          transition: all 0.3s; }
+          .header-styles .social-wrapper .social-icon .social-i .fa-instagram:hover {
+            font-size: 20px;
+            transition: all 0.3s; }
+      .header-styles .social-wrapper .social-icon .social-t {
+        max-width: 20px;
+        width: 100%; }
+        .header-styles .social-wrapper .social-icon .social-t .fa-twitter {
+          color: #FFFFFF;
+          font-size: 16px;
+          transition: all 0.3s; }
+          .header-styles .social-wrapper .social-icon .social-t .fa-twitter:hover {
+            font-size: 20px;
+            transition: all 0.3s; }
+      .header-styles .social-wrapper .social-icon .social-f {
+        max-width: 20px;
+        width: 100%; }
+        .header-styles .social-wrapper .social-icon .social-f .fa-facebook-f {
+          color: #FFFFFF;
+          font-size: 16px;
+          transition: all 0.3s; }
+          .header-styles .social-wrapper .social-icon .social-f .fa-facebook-f:hover {
+            font-size: 20px;
+            transition: all 0.3s; }
+      .header-styles .social-wrapper .social-icon .social-a {
+        max-width: 20px;
+        width: 100%; }
+        .header-styles .social-wrapper .social-icon .social-a .fa-globe-americas {
+          color: #FFFFFF;
+          font-size: 16px;
+          transition: all 0.3s; }
+          .header-styles .social-wrapper .social-icon .social-a .fa-globe-americas:hover {
+            font-size: 20px;
+            transition: all 0.3s; } }

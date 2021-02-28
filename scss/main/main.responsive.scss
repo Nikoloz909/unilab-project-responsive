@@ -789,16 +789,22 @@
 
 
 
-
 @media (max-width:768px){
     .header-styles{
+        .navbar{
+            .nav-ul{
+                display: none;
+            }
+        }
         .mob-logo{
             color: #FA6980;
             font-family: 'Helvetica';
             font-size: 13px;
+            padding-left: 15px;
         }
         .burger-conainer{
             display: block;
+            padding-left: 15px;
             .fa-bars{
                 display: block;
                 font-size: 30px;
@@ -807,46 +813,65 @@
                 cursor: pointer;
             }
         }
-        .navbar, .logo {
-            display: none;
-        }
-        
         .mobile-nav{
             display: none;
             position: fixed;
             left:0;
             padding-top: 15px;
-            padding-left: 15px;
-            width: 287px;
+           
+            max-width: 287px;
+            width: 100%;
             bottom: 0;
             top: 0;
             height: 100%;
             background-color: #F6F8F9;
+            .fa-times{
+                cursor: pointer;
+                color: #707070;
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
             .mob-nav-ul{
                 font-family: 'Helvetica-Bold';
                 font-size: 11px;
                 margin-top: 90px;
+                padding-left: 15px;
                 .mob-nav-li{
+                    max-width: 286px;
                     width: 100%;
                     margin-top: 40px;
                     color: #707070;
+                    .fa-home,.fa-compass,.fa-image,.fa-envelope,.fa-user-circle{
+                        padding-right: 30px;
+                        font-size: 15px;
+                        color: #707070;
+                      }
+                   
                     &:hover{
                         transition: all 0.3s;
                         color: black;
                     }
                     &:first-child{
                         color: #000;
-                        .fa-home{
-                            color: black;
-                        }
+                        
                     }
                     .mob-nav-a{
-                      margin-right: 30px;
-                      .fa-home,.fa-compass,.fa-image,.fa-envelope,.fa-user-circle{
-                        margin-right: 30px;
-                        font-size: 16px;
-                        color: #707070;
+                        max-width: 280px;
+                        width: 100%;
+                      
+                      .fa-home{
+                        color: black;
                       }
+                    }
+                    .img-d-flex{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .nav-img-01{
+                            max-width: 16px;
+                            width: 100%;
+                            margin-right: 30px;
+                        }
                     }
                 }
             }
@@ -855,5 +880,102 @@
         .d-block {
             display: block;
         }
+        .nav-wrapper{
+            padding-left: 15px;
+            margin-top: 150px;
+            padding-top: 50px;
+            display: flex;
+            width: 100%;
+            background-color: #A6ADB4;
+            // height: 50%;
+            .wrapp-ul,.wrapp-ull{
+                max-width: 59px;
+                width: 100%;
+                font-family: 'Helvetica-Bold';
+                font-size: 11px;
+                color: #CBD0D3;
+                transition: all 0.3s;
+                .wrapp-li,.wrapp-lii{
+                    margin-top: 15px;
+                    transition: all 0.3s;
+                    &:hover{
+                        transition: all 0.3s;
+                        color: #F6F8F9;
+                    }
+                }
+            }
+            .wrapp-ull{
+                margin-left: 50px;
+            }
+            
+        }
+        .social-wrapper{
+            background-color: #A6ADB4;
+            height: 50%;
+            padding-top: 90px;
+            .social-icon{
+                width: 176px;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 15px;
+                
+                padding-right: 40px;
+                background-color: #A6ADB4;
+                .social-i{
+                    max-width: 20px;
+                    width: 100%;
+                    .fa-instagram{
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        transition: all 0.3s;
+                        &:hover{
+                            font-size: 20px;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+                .social-t{
+                    max-width: 20px;
+                    width: 100%;
+                    .fa-twitter{
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        transition: all 0.3s;
+                        &:hover{
+                            font-size: 20px;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+                .social-f{
+                    max-width: 20px;
+                    width: 100%;
+                    .fa-facebook-f{
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        transition: all 0.3s;
+                        &:hover{
+                            font-size: 20px;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+                .social-a{
+                    max-width: 20px;
+                    width: 100%;
+                    .fa-globe-americas{
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        transition: all 0.3s;
+                        &:hover{
+                            font-size: 20px;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+                
+            }
+        }
+        
     }
 }
