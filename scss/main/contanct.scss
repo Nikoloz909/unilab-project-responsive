@@ -1,12 +1,13 @@
 .banner-section{
     @extend %container;
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
     padding-top: 42px;
-    .titile-wrapper{
-        max-width: 580px;
-        width: 100%;
-        padding-top: 42px;
+    .second-wrapper{
+        @extend %container;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
         .contetn-title{
             display: flex;
             align-items: center;
@@ -23,9 +24,36 @@
                 font-family: 'Helvetica-Bold';
                 font-size: 11px;
                 margin-left: 30px;
-                color: #A6ADB4;
-            }
+               color: #A6ADB4;
+        
+            } 
         }
+
+        .burger-menu{
+            display: flex;
+            justify-content: flex-end;
+            background-color: #F6F8F9;
+            padding-top: 30px;
+            .border{
+               width: 40px;
+                height: 40px;
+                border-radius: 6px;
+                border: 1px solid #EBEDED;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .fa-bars{
+                    font-size: 25px;
+                    color: #575F66;
+                }
+            }
+            
+        }
+    }
+    .titile-wrapper{
+        @extend %container;
+        display: flex;
+        justify-content: space-between;
        .bg-image{
            margin-top: 42px;
            background-image: url('../img/Image.png');
@@ -85,26 +113,7 @@
         width: 100%;
         margin-top: 42px;
         background-color: #ffff;
-        .burger-menu{
-            display: flex;
-            justify-content: flex-end;
-            background-color: #F6F8F9;
-            padding-bottom: 30px;
-            .border{
-               width: 40px;
-                height: 40px;
-                border-radius: 6px;
-                border: 1px solid #EBEDED;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                .fa-bars{
-                    font-size: 25px;
-                    color: #575F66;
-                }
-            }
-            
-        }
+        
         .form{
             padding-top: 127px;
             width: 100%;
