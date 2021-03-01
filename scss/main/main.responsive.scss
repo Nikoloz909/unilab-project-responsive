@@ -1346,17 +1346,15 @@
         }
 
         .social-wrapper {
+            padding-top: 40px !important;
             background-color: #A6ADB4;
             height: 50%;
-            padding-top: 90px;
-
             .social-icon {
                 width: 176px;
                 display: flex;
                 justify-content: space-between;
                 padding-left: 15px;
-
-                padding-right: 40px;
+                padding-right: 30px;
                 background-color: #A6ADB4;
 
                 .social-i {

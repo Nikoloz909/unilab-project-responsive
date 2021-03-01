@@ -1,0 +1,95 @@
+@media(max-width:900px){
+    .footer-section{
+        .footer-wrapper{
+            .second-nav-box{
+                max-width: 350px;
+            }
+            .form-wrapper{
+                max-width: 252px;
+            }
+            .social-icon{
+                max-width: 150px;
+            }
+        }
+    }
+}
+@media(max-width:825px){
+    .footer-section{
+        .footer-wrapper{
+            .second-nav-box{
+                max-width: 330px;
+            }
+            .form-wrapper{
+                max-width: 242px;
+            }
+            .social-icon{
+                max-width: 140px;
+            }
+        }
+    }
+}
+@media(max-width:780px){
+    .footer-section{
+        .footer-wrapper{
+            .second-nav-box{
+                max-width: 320px;
+            }
+            .form-wrapper{
+                max-width: 232px;
+            }
+            .social-icon{
+                max-width: 130px;
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .footer-section{
+        .footer-wrapper{
+            flex-wrap: wrap;
+            .second-nav-box{
+                max-width: 480px;
+                margin-bottom: 50px;
+            }
+            .social-icon{
+                align-items: flex-end;
+            }
+        }
+    }
+}
+@media(max-width:410px){
+    .footer-section{
+        .footer-wrapper{
+            flex-direction: column;
+            align-items: center;
+            .second-nav-box{
+                max-width: 480px;
+                margin-bottom: 50px;
+            }
+            .social-icon{
+                margin-top: 50px;
+                align-items: flex-end;
+                max-width: 170px;
+            }
+        }
+    }
+}
+@media(max-width:340px){
+    .footer-section{
+        .footer-wrapper{
+            .second-nav-box{
+                max-width: 380px;
+                margin-bottom: 50px;
+                .footer-ul,.second-ul,.therd-ul{
+                    font-size: 11px;
+                }
+            }
+            .social-icon{
+                margin-top: 50px;
+                align-items: flex-end;
+                max-width: 170px;
+                
+            }
+        }
+    }
+}
